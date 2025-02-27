@@ -22,6 +22,6 @@ public class J15EvenOddWithSwitch {
                     break;
             }
         }
-        System.out.println(" The En");
+        System.out.println(" The End");
     }
 }

@@ -2,11 +2,11 @@ package Loop;
 
 public class J08LabelBlockAndBreak {
     public static void main(String[] args) {
-        aBlock:{
-            bBlock:{
-                cBlock:{
+        aBlock: {
+            bBlock: {
+                cBlock: {
                     System.out.println("Before using break.");
-                    if(true){
+                    if (true) {
                         break bBlock;
                     }
                     System.out.println("This will never execute.");

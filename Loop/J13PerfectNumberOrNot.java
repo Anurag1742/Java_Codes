@@ -1,3 +1,4 @@
+package Loop;
 public class J13PerfectNumberOrNot {
     public static void main(String[] args) {
         int i, t, n, sum;

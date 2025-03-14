@@ -44,7 +44,7 @@ package Arrays;
 
 import java.util.*;
 
-public class J06ThirdLargestNum {
+public class J05SecondLargestNum {
     // Java program to find the third largest
     // element in an array.
 

@@ -16,5 +16,7 @@ public class FactorialRecursion {
         int num = sc.nextInt();
         sc.close();
         System.out.println("Factorial of  " + num + " is  " + Factorial(num));
+        System.out.println("Anurag Ranjan");
+        System.out.println("24SCSE2030436");
     }
 }

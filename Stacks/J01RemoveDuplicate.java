@@ -1,9 +1,9 @@
 import java.util.*;  // Importing all utility classes (like Scanner, Set, HashSet)
 
-public class RemoveDuplicates {
+class J01RemoveDuplicate {
 
     // Method to remove duplicate characters from a string while preserving order
-    public static String removeDuplicates(String input) {
+    public static String J01RemoveDuplicates(String input) {
         Set<Character> seen = new HashSet<>();          // To keep track of already seen characters
         StringBuilder result = new StringBuilder();     // To build the result string without duplicates
 
@@ -25,7 +25,7 @@ public class RemoveDuplicates {
         System.out.print("Enter a string: ");      // Prompt user for input
         String input = scanner.nextLine();         // Read full line of input
 
-        String result = removeDuplicates(input);   // Call method to remove duplicates
+        String result = J01RemoveDuplicates(input);   // Call method to remove duplicates
         System.out.println("After removing duplicates: " + result);  // Print the result
     }
 }
